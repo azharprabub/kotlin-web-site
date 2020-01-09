@@ -172,6 +172,9 @@ def videos_page():
 def books_page():
     return render_template('pages/books.html')
 
+@app.route('/docs/books/more.html')
+def books_page_more():
+    return render_template('pages/books-more.html')
 
 @app.route('/docs/kotlin-docs.pdf')
 def pdf():

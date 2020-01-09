@@ -26,6 +26,7 @@ subnav:
 
         - url: /docs/books.html
           title: Books
+          urlPattern: /docs/books(/[^/]+)?.html
 
         - url: /docs/resources.html
           title: More resources
